@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:wght@500&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:wght@500&family=Reggae+One&family=Varela+Round&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Montserrat;
+    background-color: #FBF5FE;
+
+}
+
+section.chat__section {
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 15px 20px -2px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+    background-image: url("aa.jpg");
+    ;
+}
+
+.brand {
+    padding: 15px;
+    background: #4C0D88;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.brand h1 {
+    
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-family: Varela Round;
+    letter-spacing: 3px;
+}
+
+.message__area {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 40px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+    background: #E2E4E3;
+    resize:none;
+    border-radius: 25px;
+    margin-bottom: 0% ;
+    overflow-y:hidden;
+    font-family: Montserrat;
+    
+}
+
+.message {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 350px;
+    position: relative;
+}
+
+.incoming {
+    background: #F88410;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 25px 25px 25px 0px;
+    font-family: Montserrat;
+}
+
+.outgoing {
+    background: #F9D0A8;
+    color: #000000;
+    font-weight: 500;
+    margin-left: auto;
+    border-radius: 25px 25px 0px 25px;
+    font-family: Montserrat;
+}
+
+.message h4 {
+    position: absolute;
+    top: -28px;
+    left: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:rgb(187, 187, 187);
+    border-radius: 10px;
+}
